@@ -17,6 +17,13 @@ with open("configuracion.json") as f: #Creamos un archivo de configuracion para 
 bot = commands.Bot(command_prefix='!', description="ayuda bot") #Prefijo para el comando !trono
 bot.remove_command("help") # Borra el comando por defecto !help
 
+
+
+
+####
+Programado Por Jose89fcb
+Twitter: twitter.com/jose89fcb
+####
 @bot.command()
 async def trono(ctx, *, keko): #Comando "trono"
     await ctx.message.delete() #Borramos el comando para no dejar sucio el chat xD
