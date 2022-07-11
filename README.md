@@ -2,6 +2,7 @@ Genera tu avatar de habbo sentado en el trono
 
 <br>
 
+<img src="https://cdn.discordapp.com/attachments/994786169986490500/996130327611330710/keko.png">
 <img src="https://cdn.discordapp.com/attachments/994786169986490500/995618036734242917/keko_.iroke..png">
 
 Comando para usar el bot:
