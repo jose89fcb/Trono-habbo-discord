@@ -7,7 +7,7 @@ Trono con globo:
 https://github.com/jose89fcb/Trono-habbo-discord/tree/main/Habbo%20trono%20Globo
 
 
-<img src="https://cdn.discordapp.com/attachments/994786169986490500/995618036734242917/keko_.iroke..png">
+<img src="https://i.imgur.com/T1yS9IN.png">
 
 Comando para usar el bot:
 
