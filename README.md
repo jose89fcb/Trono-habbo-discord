@@ -2,7 +2,7 @@ Genera tu avatar de habbo sentado en el trono
 
 <br>
 
-<img src="https://cdn.discordapp.com/attachments/994786169986490500/996130327611330710/keko.png">
+<img src="https://i.imgur.com/mBITwAj.png">
 Trono con globo:
 https://github.com/jose89fcb/Trono-habbo-discord/tree/main/Habbo%20trono%20Globo
 
