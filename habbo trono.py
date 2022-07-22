@@ -21,8 +21,8 @@ bot.remove_command("help") # Borra el comando por defecto !help
 
 
 ####
-Programado Por Jose89fcb
-Twitter: twitter.com/jose89fcb
+#Programado Por Jose89fcb
+#Twitter: twitter.com/jose89fcb
 ####
 @bot.command()
 async def trono(ctx, *, keko): #Comando "trono"
