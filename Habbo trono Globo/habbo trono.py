@@ -39,7 +39,7 @@ async def trono(ctx, *, keko): #Comando "trono"
     
     url = "https://www.habbo.com/habbo-imaging/avatarimage?size=l&figure="+ habbo +"&action=sit&action=sit&direction=4&head_direction=3&gesture=sml&size=m"
     img1 = Image.open(io.BytesIO(requests.get(url).content))
-    img1 = img1.resize((64,110), Image.Resampling.LANCZOS)#tamaño del keko
+    img1 = img1.resize((64,110), Image.ANTIALIAS)#tamaño del keko
     
     
     
@@ -55,7 +55,7 @@ async def trono(ctx, *, keko): #Comando "trono"
     
     
     almo = Image.open(r"imagenes/trono.png").convert("RGBA") #imagen de la trozo
-    img1 = almo.resize((118,133), Image.Resampling.LANCZOS)#tamaño de la silla
+    img1 = almo.resize((118,133), Image.ANTIALIAS)#tamaño de la silla
 
  
 
@@ -75,7 +75,7 @@ async def trono(ctx, *, keko): #Comando "trono"
 
     img2 = img1.copy()
     pata = Image.open(r"imagenes/pata_trono.png").convert("RGBA") #imagen de la pata
-    img1 = pata.resize((118,133), Image.Resampling.LANCZOS)#tamaño de la pata
+    img1 = pata.resize((118,133), Image.ANTIALIAS)#tamaño de la pata
 
     img1.paste(img2,(0,0), mask = img2) #Posicion del keko
     img1.paste(pata,(0,0), mask = pata) #Posicion del trozo de silla
@@ -90,7 +90,7 @@ async def trono(ctx, *, keko): #Comando "trono"
      ###
     img2 = img1.copy()
     globo = Image.open(r"imagenes/globo.png").convert("RGBA") #imagen de la pata
-    img1 = globo.resize((118,133), Image.Resampling.LANCZOS)#tamaño de la pata
+    img1 = globo.resize((118,133), Image.ANTIALIAS)#tamaño de la pata
     
     img1.paste(img2,(0,0), mask = img2) #Posicion del keko
     img1.paste(globo,(0,0), mask = globo) #Posicion del globo
